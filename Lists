@@ -39,3 +39,45 @@ list_c[7][2] >> 4
 
 🤖 Lists can calculate each other.
 
+list_d=[1, 2, 3]
+list_e=[4, 5, 6]
+
+print(list_d + list_e) >> [1, 2, 3, 4, 5, 6]
+print(list_d * 2) >> [1 ,2, 3, 1, 2, 3]
+print(len(list_d)) >> 3     #Length of the list(Just count indexes)
+
+
+🤖 Add element at lists : append, insert, extend
+
+"list name".append("element")             #This goes to the last of the list.
+"list name".insert("location", "element") #This goes to the location where you've given.
+"list name".extend("another list name")   #This extends the list;or elements.
+
+
+EX)
+list_d.append("red")
+print(list_d) >> [1, 2, 3, 'red']
+list_d.insert(2, "space") 
+print(list_d) >> [1, 2, 'space', 3, 'red']
+
+
+🤖 Delete elements : del, pop, remove, clear
+
+del "list name"[index]
+"list name".pop(index)
+"list name".remove(value)
+"list name".clear()
+
+
+EX)
+del list_d[3]
+print(list_d) >> [1, 2, 'space', 'red']
+
+list_d.pop(0)
+print(list_d) >> [2, 'space', 'red']
+
+list_d.remove(2) 
+list_d >> ['space', 'red']
+
+list_d.clear() 
+list_d >> []
