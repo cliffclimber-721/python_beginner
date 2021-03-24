@@ -41,3 +41,28 @@ if a1 > 0:
 else:
   raise NotImplementedError
   
+
+🤖 for 
+
+for "variation" in "which you loop":
+    "code"
+   
+   
+EX)
+for c in "python":
+  print(c)
+  
+>> p
+y
+t
+h
+o
+n
+
+list_a=[31, 45, 63]
+
+for item in list_a:
+  print(item)
+>> 31
+45
+63
